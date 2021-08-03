@@ -1,0 +1,213 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.884);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.nav {  
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.logo img {
+    max-width: 150px;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.nav__button {
+    line-height: 40px;
+    font-size: 40px;
+    border: none;
+    background: none;
+    display: none;
+}
+
+.nav__menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    font-size: 18px;
+    margin: 10px 0 10px 15px;
+    display: inline-block;
+    color: #3A3838;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: #EF4423;
+}
+
+.img1 img {
+    width: 100%;
+}
+
+.bg1 {
+    background: #B71C1C;
+    padding-bottom: 7px;
+}
+
+.bg2 {
+    background: #6A1B9A;
+    padding-top: 7px;
+}
+
+.bg3 {
+    background: #303F9F;
+    padding-bottom: 7px;
+}
+
+.bg4 {
+    background: #00695C;
+    padding-top: 7px;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    flex-grow: 1;
+}
+
+.card h3 {
+    font-size: 19px;
+    color: #FFFFFF;
+    margin: 8px 15px;
+
+}
+
+.card p {
+    color: #EBEBEB;
+    font-size: 16px;
+    margin: 0 15px 8px 15px;
+}
+
+.product {
+    background: #EDEDED;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.product .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product img {
+    max-width: 555px;
+    width: 100%;
+    margin-left: -15px;
+}
+
+.info {
+    max-width: 540px;
+    width: 100%;
+}
+
+.info p {
+    color: #686868;
+    font-size: 18px;
+    margin-bottom: 31px;
+}
+
+.info h2 {
+    margin: 20px 0 30px 0;
+    font-size: 22px;
+    color: #3A3838;
+}
+
+
+.img2 {
+    width: 100%;
+}
+
+.news {
+    min-height: 106px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news h2 {
+    display: inline-block;
+    margin: auto;
+}
+
+footer {
+    background: #3A3838;
+}
+
+footer .logo {
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+footer span {
+    color: #FFFFFF;
+}
+
+footer .link {
+    color: #FFFFFF;
+}
